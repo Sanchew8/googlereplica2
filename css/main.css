@@ -169,3 +169,43 @@ div.bottom ul.right li a {
 	letter-spacing: 0.1px;
 	font-size: 14px;
 }
+@media (max-width: 750px){
+	div.searchBox input {
+		width: 75%;
+	}
+}
+@media (max-width: 530px){
+	.right{
+		display: none;
+	}
+	ul.left {
+		width: 60%;
+		margin: 10px auto;
+		float: none;
+	}
+}
+@media (max-width: 436px){
+	* {
+		font-size: 12px;
+	}
+	.profile_img {
+		display: none;
+	}
+	ul.nav {
+		margin-right: 0px;
+	}
+	ul.nav li {
+		margin-right: 0;
+	}
+	div.bottom ul.left {
+    float: none;
+    padding-left: 0;
+    margin: 10px auto;
+	}	
+}
+@media (max-width: 400px){
+	ul.left {
+		width: 80%;
+	}
+}
+
